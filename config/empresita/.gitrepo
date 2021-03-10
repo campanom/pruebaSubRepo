@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://repo.innovaccs.com/martin.campano/empresaDemo.git
+	branch = master
+	commit = 3974f2d07e219496b4553e474d4b7e12585247d8
+	parent = a311567e63cfd09e6ef8632467e025b3b86b553b
+	method = merge
+	cmdver = 0.4.3
