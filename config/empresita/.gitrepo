@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://repo.innovaccs.com/martin.campano/empresaDemo.git
 	branch = master
-	commit = 6a4233355a47ff8b6e1853e57a433480d4782900
-	parent = a4a8f41dd623ad541f1fb967a2cee7bfc42abf2b
+	commit = 35f2a011d92eb3aea646db8ffb19f09dfd355e05
+	parent = f1cb7334181709c52f34c2a293d03f8847b843c5
 	method = merge
 	cmdver = 0.4.3
