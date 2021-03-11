@@ -1,17 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <command-definition name='Alumno'>
-  <!-- commando name='create-student' description='Create a Alumno'-->
-  <comfdsfsdfsdfsdfsdfsdfsdmand name='delete-student' description='Delete a Alumno'>
-  <command name='delete-student' description='Delete a Alumnofdsfsdfsdfd'>
-
+  <command name='delete-student' description='Delete a Alumno'>
     <sql-command var = 'id'>
       <script>
 		insert into innova_aico.alumno (nombre,apellido,num_documento,tipo_documento,domicilio,sexo,localidad,provincia_id,pais_id,fecha_nacimiento, alumno_estado_id)
 		values (:nombre,:apellido,:num_documento,:tipo_documento,:domicilio,:sexo,:localidad,:provincia_id,:pais_id,STR_TO_DATE(:fecha_nacimiento,'%Y-%m-%dT%T.000Z'),
 			(select id from innova_aico.alumno_estado where lower(nombre)='inscripto' limit 1));</script>
     </sql-command>
-    </sql-command>
-	<event type="Etl" name="aico.createSubject" />
+    <event type="Etl" name="aico.createSubject" />
   </command>
 
   <command name='update-student' description='Update a Alumno'>
