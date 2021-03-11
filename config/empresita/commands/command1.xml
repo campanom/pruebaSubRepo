@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <command-definition name='Alumno'>
   <!-- commando name='create-student' description='Create a Alumno'-->
-  <command name='delete-student' description='Delete a Alumno'>
-  <command name='delete-student' description='Delete a Alumno'>
+  <comfdsfsdfsdfsdfsdfsdfsdmand name='delete-student' description='Delete a Alumno'>
+  <command name='delete-student' description='Delete a Alumnofdsfsdfsdfd'>
 
     <sql-command var = 'id'>
       <script>
